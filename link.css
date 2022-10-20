@@ -1,0 +1,38 @@
+h1{
+    background-color: #121212;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    width: 500px;
+    padding: 5px;
+}
+
+.botao1{
+    background-color: rgb(24, 112, 101);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid rgb(3, 27, 25);
+    border-radius: 5px;
+}
+
+.botao1:hover{
+    background-color: rgb(18, 168, 151);
+    padding: 13px;
+    border: 2px solid rgb(7, 73, 68);
+
+}
+
+.botao2{
+    text-decoration: none;
+    border: 3px solid darkorchid;
+    padding: 10px;
+    color: darkorchid;
+}
+
+.botao2:hover{
+    text-decoration: none;
+    border: 3px solid darkorchid;
+    padding: 10px;
+    color: darkorchid;
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: #121212;
+}
+
+.principal{
+    width: 400px;
+    height: 400px;
+    border: solid 2px rgb(16, 175, 114);
+    position: relative;
+    left: 100px;
+    
+}
+
+.secundaria{
+    position: absolute;
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    border: solid 2px rgb(105, 18, 218);
+}
+
+img {
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+.roxo{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+}

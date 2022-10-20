@@ -1,0 +1,22 @@
+body{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: #121214;
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+
+h1, h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1, h2, p{
+    border: 2px rgb(156, 0, 247) solid;
+}
+
+p{
+    text-align: center;
+}
+

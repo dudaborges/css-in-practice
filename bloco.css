@@ -1,0 +1,43 @@
+.bloco{
+    border: 3px solid red;
+}
+
+.inline{
+    border: 3px solid blue;
+    display: inline;
+}
+
+.sumir{
+    display: block;
+}
+
+.sumir:hover{
+    display: none;
+}
+
+.e1{
+    background-color: rgb(206, 82, 0); 
+    color: white;
+    display: inline-block;
+    width: 33%;
+    height: 150px;
+
+}
+
+.e2{
+    background-color: rgb(41, 206, 0); 
+    color: white;
+    display: inline-block;
+    width: 33%;
+    height: 150px;
+
+}
+
+.e3{
+    background-color: rgb(14, 0, 206); 
+    color: white;
+    display: inline-block;
+    width: 33%;
+    height: 150px;
+}
+
