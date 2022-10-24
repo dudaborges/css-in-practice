@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+h1 {
+    background-color: blue;
+    text-align: center;
+}
+
+div{
+    background-color: red;
+    text-align: center;
+}
+
+.test{
+    text-align: left;
+}
