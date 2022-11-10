@@ -1,0 +1,11 @@
+.borda{
+    border: 2px solid red;
+}
+
+.ex1{
+    width: 800px;
+}
+
+.ex2{
+    max-width: 800px;
+}
