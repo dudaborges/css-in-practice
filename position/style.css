@@ -77,7 +77,25 @@
 .container3{
     background-color: black;
     width: 100%;
-    height: 1200px;
+    height: 500px;
     display: inline-block;
     position: relative;
+}
+
+.container4{
+    width: 400px;
+    height: 400px;
+    background: url('../img/cidade.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    position: relative;
+    /* a opacidade vai de 0 a 1 */
+}
+
+.centro{
+    position: absolute;
+    top: 50%;
+    background-color: red;
+    width: 100%;
+    text-align: center;
 }
