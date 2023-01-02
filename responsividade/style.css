@@ -1,0 +1,28 @@
+.borda{
+    border: solid red 2px;
+}
+
+main{
+    background-color: rgb(114, 91, 91);
+    padding: 20px;
+    /* min é máx é mais responsivo do que usar apenas o width */
+    max-width: 800px;
+    /* 320 é a largura dos celulares mais antigos */
+    min-width: 320px;
+    margin: auto;
+}
+
+main h1{
+    text-align: center;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+main p{
+    text-align: center;
+}
+
