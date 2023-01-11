@@ -1,0 +1,21 @@
+.borda{
+    border: solid red 2px;
+}
+
+.errado{
+    width: 100px;
+    height: 130px;
+}
+
+/* o jeito certo de mudar o tamanho de um img é colocando dentro de uma div, e com o width de 100% da div. Assim a imagem não se distorce, ela aumenta até onde consegue sem ficar desproporcional. */
+
+div{
+    width: 100px;
+    height: 130px;
+    border: solid red 2px;
+
+}
+
+div img{
+    width: 100%;
+}
