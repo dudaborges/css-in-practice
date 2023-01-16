@@ -37,4 +37,34 @@ header a{
     padding: 10px;
 }
 
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    /* vai conseguir expandir, diminuir e ter a base de  no mínimo 200px. Caso a div não conseguir ter 200px, ela vai quebrar de linha. */
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+img{
+    display: block; 
+    max-width: 100%;
+}
+
+.grid{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* mesma coisa que o de cima, porém é melhor por boa prática. */
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+}
