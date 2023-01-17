@@ -40,6 +40,7 @@ header a{
 h1{
     text-align: center;
     margin-top: 100px;
+    font-size: 1.5em
 }
 
 .flex{
@@ -65,6 +66,48 @@ img{
     /* grid-template-columns: 1fr 1fr 1fr; */
     /* mesma coisa que o de cima, porém é melhor por boa prática. */
     grid-template-columns: repeat(3, 1fr);
-    max-width: 800px;
+    /* não é 800px propositalmente para alinhar com o de cima, já que os flex items tem margin de 10px entre  a borda do container. */
+    max-width: 780px;
     margin: 0 auto;
+    gap: 20px;
+}
+
+/* estilizar apartir do 4 item */
+.grid > :nth-child(n + 4){
+    /* para deixar a imagem do lado do texto */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* para distanciar a imagem da legenda */
+    gap: 10px;
+    align-items: center;
+}
+
+/* utilizando um seletor específico do mesmo nível que o de cima, para que as alterações funcionem. */
+.grid > div.anuncio{
+    /* para mudar a posição da propaganda. */
+    grid-column: 1;
+    /* vai da linha 2 a 5 */
+    grid-row: 2 / 5;
+    /* para voltar ao normal, como ele era antes */
+    display: block;
+}
+
+/* "tudo o que for abaixo de 600px, aplique esses estilos: */
+@media (max-width: 600px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid > :nth-child(n + 4){
+        /* quando muda pro display block, as propriedades do display grid não vale mais. */
+        display: block;
+    }
+
+    .grid > div.anuncio{
+        /* para voltar pra posição inicial, sem ocupar as três linhas */
+        grid-column: auto;
+        grid-row: auto;
+        /* para colocar a propaganda em primeiro lugar */
+        order: -1;
+    }
 }
