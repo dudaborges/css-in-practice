@@ -111,3 +111,34 @@ img{
         order: -1;
     }
 }
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 20px;
+    /* aumenta até 800px */
+    max-width: 800px;
+    /* ao invés de alinhar colocando o width de 780, dá para colocar o padding de 10px que alinha do mesmo jeito */
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.sidebar > div{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px){
+    .grid2{
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar{
+        display: flex;
+        overflow: scroll;
+    }
+
+    .sidebar > div{
+        flex: 1 0 200px;
+        margin: 0 10px;
+    }
+}
