@@ -1,0 +1,12 @@
+.borda{
+    border: solid red 2px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
